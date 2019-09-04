@@ -18,7 +18,7 @@ function frameIt() {
 function pressIt() {
   $(document).on('keypress', (key) => {
     if (key.which == 71) {
-      alert("You pressed the letter G!");
+      alert("g was pressed");
     }
   });
 }

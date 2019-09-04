@@ -35,4 +35,5 @@ $(document).ready(function(){
 
 // call functions here
   window.pressIt(); // call on the entire browser window
+  window.submitIt();
 });

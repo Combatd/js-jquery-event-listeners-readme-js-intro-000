@@ -16,7 +16,7 @@ function frameIt() {
 
 /*Define a function pressIt that does not accept a parameter. The function should bind a keydown event to the input field of the form that alerts a user when they have pressed the G key.*/
 function pressIt() {
-  $(document).on('keypress', (key) => {
+  $(document).on('keydown', (key) => {
     if (key.which == 71) {
       alert("g was pressed");
     }

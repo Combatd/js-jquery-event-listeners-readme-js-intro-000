@@ -26,5 +26,5 @@ function pressIt() {
 $(document).ready(function(){
 
 // call functions here
-key.createSpy();
+  window.pressIt(); // call on the entire browser window
 });
